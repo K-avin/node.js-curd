@@ -1,4 +1,4 @@
-Employee Database
+Node JS CRUD App
 =====================
 
 **using cloud mongodb**
@@ -8,10 +8,6 @@ Employee Database
 * Node
 * Express
 * MongoDB
-
-## How to build docker image
-
-docker build -t ijason/nodejs-sample .
 
 ## How to run the application
 
