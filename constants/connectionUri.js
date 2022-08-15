@@ -1,0 +1,1 @@
+uri = "mongodb+srv://root:<password>@cluster0.lx86um7.mongodb.net/?retryWrites=true&w=majority";
