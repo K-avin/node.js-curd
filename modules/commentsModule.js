@@ -4,7 +4,7 @@ const MongoClient = mongo.MongoClient
 const router = express.Router()
 var db;
 
-const uri = "mongodb+srv://root:chP5jcudOasKzof0@cluster0.lx86um7.mongodb.net/?retryWrites=true&w=majority";
+const uri = "mongodb+srv://root:<password>@cluster0.lx86um7.mongodb.net/?retryWrites=true&w=majority";
 MongoClient.connect(uri, (err, con) => {
     if (err) console.log(err);
     db = con.db('mflix')
